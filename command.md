@@ -14,4 +14,5 @@
   * `response.xpath("//img[contains(@class, 'primary-image')]/@src")` -> extract image link (select and image element, that contains class primary-image and src for image, returns Xpath)
   * `response.xpath("//img[contains(@class, 'primary-image')]/@src").extract()` -> gives link
   * ` response.xpath("//div[@class='arrowgreen']/ul/li[1]/a/@href").extract()` -> for href link
+* `scrapy crawl <crawler name> -o <file_to_be_saved>.csv`
   
