@@ -13,4 +13,5 @@
   * `i.xpath(".//text()").extract())` -> if you want to ignore elements
   * `response.xpath("//img[contains(@class, 'primary-image')]/@src")` -> extract image link (select and image element, that contains class primary-image and src for image, returns Xpath)
   * `response.xpath("//img[contains(@class, 'primary-image')]/@src").extract()` -> gives link
+  * ` response.xpath("//div[@class='arrowgreen']/ul/li[1]/a/@href").extract()` -> for href link
   
