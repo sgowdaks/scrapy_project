@@ -6,11 +6,11 @@ import requests
 class NutritinalOrg(scrapy.Spider):
     name = 'nutrition' # name of spider
 	
-    start_urls = ['https://www.nutritionvalue.org/search.php?food_query=BOLTHOUSE+FARMS']
+    start_urls = ['https:']
 
     def parse(self, response):
         product = []
-        url = "https://www.nutritionvalue.org/search.php?food_query=BOLTHOUSE+FARMS"
+        url = "https:"
         product.append(url)
         # for i in range(2, 3):
         #     url_ = url + "&page=" + str(i)
